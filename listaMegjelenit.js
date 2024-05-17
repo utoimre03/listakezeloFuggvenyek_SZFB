@@ -4,7 +4,7 @@ export function htmlOsszeallit(lista) {
   txt +=
     "<thead><tr><th>Név</th><th>Kor</th><th>Nem</th><th></th></tr></thead>";
   txt += "<tbody>";
-  lista.forEach((elem,index) => {
+  lista.forEach((elem, index) => {
     /*  a tábla egy sora */
     txt += `<tr>`;
 
@@ -13,7 +13,7 @@ export function htmlOsszeallit(lista) {
       //console.log("kulcs: ", kulcs, elem[kulcs]);
       txt += `<td>${elem[kulcs]}</td>`;
     }
-    txt += `<td class='torol' id=${index}>🗑️</td>`;
+    txt += `<td class='torol' id=${elem.id}>🗑️</td>`;
     txt += `</tr>`;
   });
   txt += "</tbody></table>";

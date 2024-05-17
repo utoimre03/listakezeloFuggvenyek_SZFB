@@ -1,0 +1,46 @@
+{
+  "emberekLISTA": [
+    {
+      "nev": "Béla",
+      "kor": 133,
+      "nem": true,
+      "id": "ed29"
+    },
+    {
+      "id": "f8d0",
+      "nev": "Gézu",
+      "kor": "23",
+      "nem": true
+    },
+    {
+      "id": "e83c",
+      "nev": "AAA",
+      "kor": "12",
+      "nem": true
+    },
+    {
+      "id": "596e",
+      "nev": "Johnny Depp",
+      "kor": "32",
+      "nem": true
+    },
+    {
+      "id": "e910",
+      "nev": "",
+      "kor": "",
+      "nem": true
+    },
+    {
+      "id": "c10e",
+      "nev": "",
+      "kor": "",
+      "nem": true
+    },
+    {
+      "id": "778e",
+      "nev": "",
+      "kor": "",
+      "nem": true
+    }
+  ]
+}
